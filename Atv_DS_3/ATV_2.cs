@@ -19,14 +19,14 @@ namespace Atv_DS_3
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int mes1, mes2, mes3, mes4, mes5, mes6, conta;
+            double mes1, mes2, mes3, mes4, mes5, mes6, conta;
 
-            mes1 = int.Parse(txtMês_1.Text);
-            mes2 = int.Parse(txtMês_2.Text);
-            mes3 = int.Parse(txtMês_3.Text);
-            mes4 = int.Parse(txtMês_4.Text);
-            mes5 = int.Parse(txtMês_5.Text);
-            mes6 = int.Parse(txtMês_6.Text);
+            mes1 = Convert.ToDouble(txtMes_1.Text);
+            mes2 = Convert.ToDouble(txtMes_2.Text);
+            mes3 = Convert.ToDouble(txtMes_3.Text);
+            mes4 = Convert.ToDouble(txtMes_4.Text);
+            mes5 = Convert.ToDouble(txtMes_5.Text);
+            mes6 = Convert.ToDouble(txtMes_6.Text);
 
                 conta = (mes1 + mes2 + mes3 + mes4 + mes5 + mes6) / 6;
 
