@@ -21,12 +21,12 @@ namespace Atv_DS_3
         {
             double mes1, mes2, mes3, mes4, mes5, mes6, conta;
 
-            mes1 = Convert.ToDouble(txtMes_1.Text);
-            mes2 = Convert.ToDouble(txtMes_2.Text);
-            mes3 = Convert.ToDouble(txtMes_3.Text);
-            mes4 = Convert.ToDouble(txtMes_4.Text);
-            mes5 = Convert.ToDouble(txtMes_5.Text);
-            mes6 = Convert.ToDouble(txtMes_6.Text);
+            mes1 = Convert.ToDouble(txtMês_1.Text);
+            mes2 = Convert.ToDouble(txtMês_2.Text);
+            mes3 = Convert.ToDouble(txtMês_3.Text);
+            mes4 = Convert.ToDouble(txtMês_4.Text);
+            mes5 = Convert.ToDouble(txtMês_5.Text);
+            mes6 = Convert.ToDouble(txtMês_6.Text);
 
                 conta = (mes1 + mes2 + mes3 + mes4 + mes5 + mes6) / 6;
 
